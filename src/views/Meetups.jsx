@@ -24,7 +24,7 @@ const Meetups = () => {
             <div className="block2 pad28">
                 <div className="respond-c container flx-r">
                     <div className="img-con">
-                    <img className="mu-img center" src="/images/headspace-walking.svg" />
+                    <img className="mu-img center" src="https://i.imgur.com/8jEozFW.png" />
                     </div>
                     <div className="mu-text flx-1 center-text flx-c">
                         <h2 className="title">Walking Meditations</h2>
@@ -38,7 +38,7 @@ const Meetups = () => {
             <div className="block3 pad28">
                 <div className="respond-c container flx-r">
                     <div className="img-con">
-                    <img className="mu-img center" src="/images/party-image.jpg" />
+                    <img className="mu-img center" src="https://i.imgur.com/C9E7mEE.jpg" />
                     </div>
                     <div className="mu-text flx-1 center-text flx-c">
                         <h2 className="title">Friday Socials</h2>

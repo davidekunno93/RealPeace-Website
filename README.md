@@ -1,4 +1,5 @@
 This Website is still in development and has several pages that are still under construction.
+A couple of the images used in this website belong to 3rd parties and will not be used by this website once it is complete and ready to roll out.
 
 Slogan ideas:
 "Find Inner Peace, One Click Away"
