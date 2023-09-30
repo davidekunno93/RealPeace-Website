@@ -38,6 +38,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #213547;
+}
+
+p {
+  color: black;
 }
 
 button {
@@ -750,6 +755,11 @@ login-box {}
 .arrow-left,
 .dot-option {
   transition-duration: 0.3s;
+  cursor: pointer;
+}
+.dot-img{
+  width: 20px;
+  height: 20px;
 }
 
 .arrow-left:hover {
@@ -765,6 +775,7 @@ login-box {}
 .dot-option:hover {
   opacity: 0.75;
   transition-duration: 0.3s;
+  transform: translateY(-3px);
 }
 
 .bg-misfits {
@@ -1169,6 +1180,9 @@ login-box {}
   .carousel2-title {
     font-size: xx-large;
   }
+  .carousel-box{
+    margin: auto;
+  }
 
   .narrow-nav {
     display: block;
@@ -1176,6 +1190,9 @@ login-box {}
 
   #h1-respond {
     margin-bottom: 0px;
+  }
+  h1 {
+    font-size: xx-large;
   }
 
   .page-title{
@@ -1262,7 +1279,8 @@ login-box {}
   }
 
   .subscribe-box {
-    width: 350px;
+    width: 90%;
+    flex-direction: column;
   }
 
 

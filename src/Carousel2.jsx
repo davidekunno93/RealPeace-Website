@@ -39,23 +39,26 @@ export const Carousel2 = () => {
                 <div className="carousel2-btns flx-r just-ce abs z-20">
                     <button onClick={() => updateIndex(activeIndex - 1)} className='arrow-left seethru'>
                         <span className="material-symbols-outlined xx-large">
-                            {/* arrow_back_ios */}
-                            arrow_circle_left
+                            arrow_back_ios
+                            {/* arrow_circle_left */}
                         </span>
                     </button>
 
-                    <div className="indicators mt-1h">
+                    <div className="indicators mt-3 flx-r just-se">
                         {items.map((item, index) => {
-                            return <button className={`${activeIndex === index ? null : "dot-option"} seethru`} onClick={() => updateIndex(index)}><span className="material-symbols-outlined large">
-                                {activeIndex === index ? "radio_button_checked" : "radio_button_unchecked"}
-                            </span></button>
+                            // return <button className={`${activeIndex === index ? null : "dot-option"} seethru`} onClick={() => updateIndex(index)}><span className="material-symbols-outlined large">
+                            //     {activeIndex === index ? "radio_button_checked" : "radio_button_unchecked"}
+                            // </span></button>
+                            return <img src={activeIndex === index ? "https://i.imgur.com/X6zwuT5.png" : "https://i.imgur.com/flQLMEs.png"} className={`${activeIndex === index ? null : "dot-option"} dot-img mx-3`} onClick={() => updateIndex(index)} />
+                                
+                            
                         })}
                     </div>
 
                     <button onClick={() => updateIndex(activeIndex + 1)} className='arrow-right seethru'>
                         <span className="material-symbols-outlined xx-large">
-                            {/* arrow_forward_ios */}
-                            arrow_circle_right
+                            arrow_forward_ios
+                            {/* arrow_circle_right */}
                         </span>
                     </button>
 
