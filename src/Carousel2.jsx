@@ -38,7 +38,7 @@ export const Carousel2 = () => {
             <div className="carousel-rectangle wide80 m-auto rel">
                 <div className="carousel2-btns flx-r just-ce abs z-20">
                     <button onClick={() => updateIndex(activeIndex - 1)} className='arrow-left seethru'>
-                        <span className="material-symbols-outlined xx-large">
+                        <span className="material-symbols-outlined xx-large color-black">
                             arrow_back_ios
                             {/* arrow_circle_left */}
                         </span>
@@ -56,7 +56,7 @@ export const Carousel2 = () => {
                     </div>
 
                     <button onClick={() => updateIndex(activeIndex + 1)} className='arrow-right seethru'>
-                        <span className="material-symbols-outlined xx-large">
+                        <span className="material-symbols-outlined xx-large color-black">
                             arrow_forward_ios
                             {/* arrow_circle_right */}
                         </span>

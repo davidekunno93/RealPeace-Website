@@ -40,6 +40,9 @@ h1 {
   line-height: 1.1;
   color: #213547;
 }
+h2 {
+  color: #213547;
+}
 
 p {
   color: black;
@@ -602,6 +605,10 @@ button:focus-visible {
 
 .register-box,
 login-box {}
+
+.color-black{
+  color: black;
+}
 
 .black-link {
   color: black;
