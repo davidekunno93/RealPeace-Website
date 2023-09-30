@@ -27,7 +27,7 @@ const Login = () => {
                     <input name="password" className='form-input2' id="login-pw" type="password" placeholder="Password" />
                     <div>
                     <input id="show-password" type="checkbox" onClick={() => showPassword()} />
-                    <label id="sp-label" htmlFor="show-password">Show Password</label>
+                    <label id="sp-label" htmlFor="show-password color-black">Show Password</label>
                     </div>
                     <div className='pad28'>
                         <button className='square-btn center'>LOGIN</button>

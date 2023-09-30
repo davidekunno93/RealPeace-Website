@@ -38,7 +38,7 @@ const Register = () => {
                     <input name="confirmPassword" className='form-input2 mt-1' id="reg-cpw" type="password" placeholder="Confirm Password" />
                     <div>
                     <input id="show-password" type="checkbox" />
-                    <label id="sp-label" htmlFor="show-password">Show Password</label>
+                    <label id="sp-label" htmlFor="show-password color-black">Show Password</label>
                     </div>
                     <div className='pad28'>
                         <button className='square-btn center'>REGISTER</button>
