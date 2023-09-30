@@ -583,6 +583,7 @@ button:focus-visible {
 
 .form-input2 {
   border: none;
+  color: black;
   border-bottom: 2px solid rgb(158, 158, 158);
   font-size: medium;
   padding-left: 6px;
@@ -598,6 +599,7 @@ button:focus-visible {
   padding-left: 10px;
   background-color: rgba(245, 245, 245, 0.8);
 }
+
 .footer-title{
   height: 100px;
   width: max-content;
@@ -608,6 +610,9 @@ login-box {}
 
 .color-black{
   color: black;
+}
+.color-dark{
+  color: #213547;
 }
 .color-red{
   color: red;

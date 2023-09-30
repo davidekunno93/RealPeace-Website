@@ -20,9 +20,9 @@ const Login = () => {
             <form method="POST" onSubmit={loginSubmit}>
             <h2 className="center-text">LOGIN</h2>
                     <div className='flx-c pad16'>
-                    <label htmlFor="un" className="form-label m0 left-text color-black">&nbsp;<strong>Username:</strong></label>
+                    <label htmlFor="un" className="form-label m0 left-text color-dark">&nbsp;<strong>Username:</strong></label>
                     <input name="username_email" className='form-input2' type="text" placeholder="Email or Username" />
-                    <label htmlFor="pw" className="form-label m0 left-text color-black">&nbsp;<strong>Password:</strong></label>
+                    <label htmlFor="pw" className="form-label m0 left-text color-dark">&nbsp;<strong>Password:</strong></label>
                     
                     <input name="password" className='form-input2' id="login-pw" type="password" placeholder="Password" />
                     <div>
