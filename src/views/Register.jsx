@@ -19,26 +19,26 @@ const Register = () => {
             <h2 className="center-text">REGISTER</h2>
                 <div className='reg-div flx-c bg-gains see-thru'>
                     <div className='flx-c pad16'>
-                    <label htmlFor="nm" className="form-label m0 left-text">&nbsp;<strong>Name</strong></label>
+                    <label htmlFor="nm" className="form-label m0 left-text color-black">&nbsp;<strong>Name</strong></label>
                     <input name="name" className='form-input2' type="text" placeholder="Enter your name..." />
-                    <label htmlFor="un" className="form-label m0 left-text">&nbsp;<strong>Username</strong></label>
+                    <label htmlFor="un" className="form-label m0 left-text color-black">&nbsp;<strong>Username</strong></label>
                     <input name="username" className='form-input2' type="text" placeholder="Create a Username" />
                     <div className="my-2">
                         <input value="male" name="sex" id="male" className='radio mx-2' type="radio" />
-                        <label htmlFor="male">Male</label>
+                        <label htmlFor="male" className="color-black">Male</label>
                         <input value="female" name="sex" id="female" className='radio mx-2' type="radio" />
-                        <label htmlFor="female">Female</label>
+                        <label htmlFor="female" className="color-black">Female</label>
                         <input value="noAnswer" name="sex" id="noanswer" className='radio mx-2' type="radio" />
-                        <label htmlFor="noanswer">No Answer</label>
+                        <label htmlFor="noanswer" className="color-black">No Answer</label>
                     </div>
-                    <label htmlFor="em" className="form-label m0 left-text">&nbsp;<strong>Enter your email</strong></label>
+                    <label htmlFor="em" className="form-label m0 left-text color-black">&nbsp;<strong>Enter your email</strong></label>
                     <input name="email" className='form-input2' type="email" placeholder="johndoe@example.com" />
-                    <label htmlFor="pw" className="form-label m0 left-text">&nbsp;<strong>Create your password</strong></label>
+                    <label htmlFor="pw" className="form-label m0 left-text color-black">&nbsp;<strong>Create your password</strong></label>
                     <input name="password" className='form-input2' id="reg-pw" type="password" placeholder="Password" />
                     <input name="confirmPassword" className='form-input2 mt-1' id="reg-cpw" type="password" placeholder="Confirm Password" />
                     <div>
                     <input id="show-password" type="checkbox" />
-                    <label id="sp-label" htmlFor="show-password color-black">Show Password</label>
+                    <label id="sp-label" htmlFor="show-password" className="color-black">Show Password</label>
                     </div>
                     <div className='pad28'>
                         <button className='square-btn center'>REGISTER</button>
