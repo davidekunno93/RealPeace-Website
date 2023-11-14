@@ -600,14 +600,18 @@ button:focus-visible {
   background-color: rgba(245, 245, 245, 0.8);
 }
 
-.footer-title{
-  width: fit-content;
+.footer-title1{
+  width: 270px;
+  height: 100px;
+  /* width: max-content; */
+}
+.footer-title2{
+  width: 150px;
   height: 100px;
   /* width: max-content; */
 }
 
-.register-box,
-login-box {}
+
 
 .color-black{
   color: black;
@@ -1280,8 +1284,15 @@ login-box {}
   .wide100-respond {
     width: 100%;
   }
-  .footer-title{
+  .footer-title1{
+    width: 155px;
     height: 60px;
+    /* width: max-content; */
+  }
+  .footer-title2{
+    width: 90px;
+    height: 60px;
+    /* width: max-content; */
   }
   .social-media-icon{
     width: 30px;
@@ -1563,6 +1574,6 @@ login-box {}
 @media only screen and (max-width: 370px){
   .rp-icon{
     height: 40px;
-    
+
   }
 }

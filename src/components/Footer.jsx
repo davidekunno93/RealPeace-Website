@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="footer-inner wide90 flx-r m-auto">
                     <div className="c1 flx-2 flx-c pl-4">
                         {/* <p className="xx-large mb-5"><strong>Real Peace</strong></p> */}
-                        <img src="https://i.imgur.com/svPNDUp.png" alt="" className="footer-title" />
+                        <img src="https://i.imgur.com/svPNDUp.png" alt="" className="footer-title1" />
                         <div className="respond-c1r2 flx-r">
                             <div className="c1r2c1 flx-1">
                                 <Link className="white-link"><p className=" white-text">About Us</p></Link>
@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                     <div className="c2 flx-1">
                         {/* <p className="xx-large roboto mb-5"><strong>Social</strong></p> */}
-                        <img src="https://i.imgur.com/uzA0r26.png" alt="" className="footer-title" />
+                        <img src="https://i.imgur.com/uzA0r26.png" alt="" className="footer-title2" />
                         <div className="socials flx-c just-ce">
                         <Link className="white-link-wimg"><div className="social-link">
                                 <img src="https://i.imgur.com/F8VYDeB.png" alt="" className="social-media-icon v-align" />
