@@ -49,7 +49,7 @@ export const Carousel2 = () => {
                             // return <button className={`${activeIndex === index ? null : "dot-option"} seethru`} onClick={() => updateIndex(index)}><span className="material-symbols-outlined large">
                             //     {activeIndex === index ? "radio_button_checked" : "radio_button_unchecked"}
                             // </span></button>
-                            return <img src={activeIndex === index ? "https://i.imgur.com/X6zwuT5.png" : "https://i.imgur.com/flQLMEs.png"} className={`${activeIndex === index ? null : "dot-option"} dot-img mx-3`} onClick={() => updateIndex(index)} />
+                            return <img key={index} src={activeIndex === index ? "https://i.imgur.com/X6zwuT5.png" : "https://i.imgur.com/flQLMEs.png"} className={`${activeIndex === index ? null : "dot-option"} dot-img mx-3`} onClick={() => updateIndex(index)} />
                                 
                             
                         })}
@@ -66,8 +66,8 @@ export const Carousel2 = () => {
                 <div className="inner" style={{ transform: `translate(-${activeIndex * 100}%)` }}>
 
 
-                    {items.map((item) => {
-                        return <Carousel2Item item={item} />
+                    {items.map((item, i) => {
+                        return <Carousel2Item key={i} item={item} />
                     })}
 
                 </div>

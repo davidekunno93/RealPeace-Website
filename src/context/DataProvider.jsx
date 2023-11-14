@@ -3,10 +3,10 @@ import { createContext, useState } from "react"
 
 const DataProvider = (props) => {
 
-    const [user, setUser] = useState(null);
+    const [authUser, setAuthUser] = useState(null);
 
     return (
-        <DataContext.Provider value={{ "user": user, "setUser": setUser }}>
+        <DataContext.Provider value={{ "authUser": authUser, "setAuthUser": setAuthUser }}>
             {props.children}
         </DataContext.Provider>
     )

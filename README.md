@@ -16,3 +16,4 @@ Slogan ideas:
 "Awaken Your Inner Zen"
 "Together in Tranquility"
 
+- Footer being weird on Derek's phone device (iPhone 7, and 11 Safari)

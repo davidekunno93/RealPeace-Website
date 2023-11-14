@@ -601,8 +601,9 @@ button:focus-visible {
 }
 
 .footer-title{
+  width: fit-content;
   height: 100px;
-  width: max-content;
+  /* width: max-content; */
 }
 
 .register-box,
@@ -1449,7 +1450,7 @@ login-box {}
   position: absolute;
   z-index: 2;
   inset: 0px;
-  background-image: url(https://i.imgur.com/xH4Kj8E.png);
+  background-image: url(https://i.imgur.com/n9iFu4p.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1493,7 +1494,10 @@ login-box {}
 .darkgreen-backy {
   background-color: #00670c;
 }
-
+.rp-symbol{
+  width: 50px;
+  vertical-align:top;
+}
 .event-img {
   width: 320px;
   height: 500px;
@@ -1554,4 +1558,11 @@ login-box {}
 
 .underconstruction {
   width: 70%;
+}
+
+@media only screen and (max-width: 370px){
+  .rp-icon{
+    height: 40px;
+    
+  }
 }

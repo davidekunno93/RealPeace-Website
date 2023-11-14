@@ -28,9 +28,9 @@ const Home = () => {
         <>
             <MultiLayerParallax />
             <div className="darkgreen-backy center-text">
-                <h1 className="white-text mt-5">Real Peace </h1>
-                <p className="center white-text wide70 large mb-5 roboto">Real Peace is a young adults' group using meditation and other mindful practices to reconnect with ourselves and each other. Discover new practices taught in our guided meditations, make new friends and socialize with like-minded individuals.</p>
-                <Link to='/meetups'><button className="square-btn mb-4">Go to Events</button></Link>
+                <h1 className="white-text mt-5">Welcome to your Source of finding Real Peace</h1>
+                <p className="center white-text wide70 large mb-5 roboto">Real Peace is vital to your life, when grown and nourished it can makes our lives more blissful and worth living in every moment. Below are the 3 pillars that when practiced cultivate real peace within you. </p>
+                {/* <Link to='/meetups'><button className="square-btn mb-4">Go to Events</button></Link> */}
             </div>
             <img src="https://i.imgur.com/VPTqo9d.png" alt="" className="wide100 mb-5" />
 
@@ -60,23 +60,23 @@ const Home = () => {
                 </div>
                 <div className="c2 flx-c flx-3 roboto">
                     <div id="desktop-head" className="c2r1 flx-1 flx-c pad16">
-                        <h1 className="m0">Don't forget your mind!</h1>
+                        <h1 className="m0">The 3 Pillars of Real <img src="https://i.imgur.com/RwYlwu0.png" alt="" className="rp-symbol" /></h1>
                         <p className="m0 mt-2 roboto x-large">We all know exercise is important but what about our brains! Studies say <strong>22%</strong> of Americans go to the gym and only <strong>14%</strong> meditate. <strong>That means 86% are missing out on these benefits of mindfulness...</strong></p>
                     </div>
                     <div className="c2r2 flx-1 flx-r">
                         <div id="one" onClick={() => updateImg({ img_url: "https://i.imgur.com/WXW5tkC.png", id: "one" })} className="c2r2c1 flx-1 flx-c pad16 hover-pressed">
-                            <h2 className="m0">Stress Handling</h2>
-                            <p className="m0 mt-2 roboto">Mindfulness practice helps you breathe through your thoughts and emotions, and practice accepting and navigating them more constructively, instead of letting them overwhelm you.</p>
+                            <h2 className="m0">Mindfulness</h2>
+                            <p className="m0 mt-2 roboto">Mindfulness is focusing one's awareness on the present moment. This is powerful because the only thing we have control of is the present. Acknowledging this and being aware of this is crucial to unlocking and feeling peace.</p>
                         </div>
                         <div id="two" onClick={() => updateImg({ img_url: "https://i.imgur.com/aPP84xm.png", id: "two" })} className="c2r2c2 flx-1 flx-c pad16 hover">
-                            <h2 className="m0">Cognitive thinking</h2>
-                            <p className="m0 mt-2 roboto">Developing mental clarity helps you become a better problem solver. Breaking down objectives into steps helps you organize a clearer path to solutions.</p>
+                            <h2 className="m0">Meditation</h2>
+                            <p className="m0 mt-2 roboto">Meditation is a <strong>key practice</strong> for obtaining peace and aiding in the process of implementing your goals and desires. The power of the mind often goes untapped. But once it is recognized, it can be used to obtain desired peace.</p>
                         </div>
                     </div>
                     <div className="c2r3 flx-1 flx-r">
-                        <div id="three" onClick={() => updateImg({ img_url: "https://i.imgur.com/ERhZyLj.png", id: "three" })} className="c2r3c1 flx-1 flx-c pad16 hover">
-                            <h2 className="m0">Socializing</h2>
-                            <p className="m0 mt-2 roboto">We all feel socially awkward sometimes. Learning to accept these feelings instead of dwelling on them is the fastest route to not having to feel awkward in the first place.</p>
+                        <div id="three" onClick={() => updateImg({ img_url: "https://i.imgur.com/0SQmjLt.png", id: "three" })} className="c2r3c1 flx-1 flx-c pad16 hover">
+                            <h2 className="m0">Goals</h2>
+                            <p className="m0 mt-2 roboto">Goals are essential for achieving peace as they provide a clear and collective vision for a harmonious future. Additionally, they offer a benchmark for progress, allowing for measurable achievements and promoting a deeper understanding of one's self.</p>
                         </div>
                         <div id="four" onClick={() => updateImg({ img_url: "https://i.imgur.com/Q3rGzAD.png", id: "four" })} className="c2r3c2 flx-1 flx-c pad16 hover">
                             <h2 className="m0">Enjoying Life</h2>
@@ -89,7 +89,7 @@ const Home = () => {
             <div className="empty-6"></div>
 
 
-            <h1 className="center-text mt-10 roboto">Train your brain in 3 simple steps...</h1>
+            <h1 className="center-text mt-10 roboto">What this site will give you...</h1>
             <div className="values flx-r flx-wrap just-se">
 
                 <div className="value flx-c my-5 mx-2">
@@ -172,7 +172,7 @@ const Home = () => {
 
 
 
-            <h1 className="center-text">Want weekly updates?</h1>
+            {/* <h1 className="center-text">Want weekly updates?</h1>
             <div className="subscribe-box flx-r m-auto">
                 <div className="subscribe-img flx-1">
                     <span className="v-helper"></span>
@@ -184,7 +184,7 @@ const Home = () => {
                     <input type="text" className="form-input2" placeholder="email@example.com" />
                     <Link to='/under-construction'><button className="square-btn center mt-4">Subscribe</button></Link>
                 </div>
-            </div>
+            </div> */}
 
         </>
     )
