@@ -814,7 +814,7 @@ button:focus-visible {
 
 .social-media-icon {
   width: 40px;
-  height: max-content;
+  height: 40px;
 }
 
 
@@ -1296,6 +1296,7 @@ button:focus-visible {
   }
   .social-media-icon{
     width: 30px;
+    height: 30px;
   }
   .social-link{
     margin-top: 10px;
